@@ -5,6 +5,10 @@ import PackageDescription
 
 let package = Package(
     name: "Hello",
+    platforms: [.iOS(.v10), .macOS(.v10_12), .tvOS(.v10), .watchOS(.v3)],
+    products: [
+        .library(name: "Hello", targets: ["Hello"]),
+    ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
