@@ -7,9 +7,13 @@ projectName:
             - "AdHoc"
             - "Enterprise"
             - "Appstore"
-        version: 
-            - 10_18_0: "branch_10_18_0"
-            - 10_19_0: "branch_10_19_0"
+        versions: 
+            -
+               version: "10_18_0"
+               branch: "branch_10_18_0"
+            -
+               version: "10_19_0"
+               branch: "branch_10_19_0"
     - 
         name: "Baihe"
         localtion: "~/Jiayuan"
@@ -18,9 +22,13 @@ projectName:
             - "AdHoc"
             - "Enterprise"
             - "Appstore"
-        version: 
-            - 10_18_0: "branch_10_18_0"
-            - 10_19_0: "branch_10_19_0"
+        versions: 
+            -
+               version: "10_18_0"
+               branch: "branch_10_18_0"
+            -
+               version: "10_19_0"
+               branch: "branch_10_19_0"
     - 
         name: "Baihe"
         localtion: "~/JiaYuanA"
@@ -29,6 +37,10 @@ projectName:
             - "AdHoc"
             - "Enterprise"
             - "Appstore"
-        version: 
-            - 10_18_0: "branch_10_18_0"
-            - 10_19_0: "branch_10_19_0"
+        versions: 
+            -
+               version: "10_18_0"
+               branch: "branch_10_18_0"
+            -
+               version: "10_19_0"
+               branch: "branch_10_19_0"
