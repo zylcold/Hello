@@ -1,1 +1,34 @@
-
+projectName:
+    - Baihe:
+        name: "Baihe"
+        localtion: "~/BaiheOnline"
+        command: "bundle exec fastlane"
+        exprotMode: 
+            - "AdHoc"
+            - "Enterprise"
+            - "Appstore"
+        version: 
+            - 10_18_0: "branch_10_18_0"
+            - 10_19_0: "branch_10_19_0"
+    - JiaYuan:
+        name: "Baihe"
+        localtion: "~/Jiayuan"
+        command: "bundle exec fastlane"
+        exprotMode: 
+            - "AdHoc"
+            - "Enterprise"
+            - "Appstore"
+        version: 
+            - 10_18_0: "branch_10_18_0"
+            - 10_19_0: "branch_10_19_0"
+    - JiaYuanA:
+        name: "Baihe"
+        localtion: "~/JiaYuanA"
+        command: "bundle exec fastlane"
+        exprotMode: 
+            - "AdHoc"
+            - "Enterprise"
+            - "Appstore"
+        version: 
+            - 10_18_0: "branch_10_18_0"
+            - 10_19_0: "branch_10_19_0"
